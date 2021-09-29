@@ -54,7 +54,7 @@ body{
     flex-direction: column;
 }
 .title{
-    margin: 15px 0 30px ;
+    margin: 30px 0 30px ;
     padding: 0 50px;
     text-align: center;
 }
@@ -76,6 +76,17 @@ body{
     display: flex;
     flex-direction: column;
 }
+span{
+    color: rgba(0, 0, 0, 0.452);
+}
+.linck{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--Bright_blue);
+}
+.linck a:hover{
+    text-decoration: none;
+}
 .btn_section{
     padding: 10px;
     border-radius: 10px;
@@ -86,19 +97,19 @@ body{
     width: 250px;
     margin: 30px auto;
 }
-.linckto{
-    text-align: center;
+.btn_section:hover{
+    background-color: hsl(246, 76%, 31%);
+    transition: all 0.5s ;
 }
-
-
-
-
-
-
-
-
-
-
+.linckto {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+#link{
+    text-decoration: none;
+    color: black;
+}
 
 attribution { 
     font-size: 11px; 
